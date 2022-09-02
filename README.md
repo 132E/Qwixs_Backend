@@ -35,16 +35,13 @@
 
 
 ---
+### _Entity Relationship Diagram (ERD)_
+![Image](https://i.imgur.com/tTZT8f9.png)
 
+---
 <!-- ### _Component Heirarchy Diagram (CHD)_
 
 ![Image](Assets/CycleList_CHD_v.2.png)
-
----
-
-### _Entity Relationship Diagram (ERD)_
-
-![Image](Assets/CyleList_ERD.png)
 
 ---
 
@@ -60,8 +57,8 @@
 
 - [x] README.md
 - [x] Trello Board
+- [x] ERD
 - [ ] Wireframes
-- [ ] ERD
 - [ ] CHD
 - [ ] Frontend
 - [ ] Backend
