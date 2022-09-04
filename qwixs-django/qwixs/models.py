@@ -16,7 +16,11 @@ class Owner(models.Model):
 
 class Business(models.Model):
     name = models.CharField(max_length=150)
+    about = models.CharField(max_length=400, blank=True)
     address = models.CharField(max_length=150)
+    city = models.CharField(max_length=50, default=' ')
+    state = models.CharField(max_length=2, default=' ')
+    zipcode = models.CharField(max_length=6, default=' ')
     phone = models.CharField(max_length=11)
     email = models.EmailField(max_length=255)
     owner = models.ForeignKey(
