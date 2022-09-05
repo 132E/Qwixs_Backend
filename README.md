@@ -36,20 +36,20 @@
 
 ---
 ### _Entity Relationship Diagram (ERD)_
-![Image](https://i.imgur.com/py2DkfP.png)
+![Image](Assets/qwixs-erd.png)
 
 ---
 ### _Component Heirarchy Diagram (CHD)_
 
-![Image](https://i.imgur.com/JOOwMh4.png)
+![Image](Assets/qwixs_chd.png)
 
 ---
 
 ### _Wireframes_
 
-![image](Assets/CycleList_Wireframes.png)
+<!-- ![image](Assets/CycleList_Wireframes.png) -->
 
-[Figma File](https://www.figma.com/file/NtcUH9Miw0GxNS1v86WxLU/CycleList-Wire-frame?node-id=0%3A1)
+[Figma File](https://www.figma.com/file/fX8JnItlnZk3QqT1mkB9mp/qwixs_wireframe?node-id=0%3A1)
 
 ---
 
@@ -73,4 +73,3 @@
 
 ### _Credits_
 
-<!-- #### [JollySpins](https://jollyspins.wordpress.com/) -->
