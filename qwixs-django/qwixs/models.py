@@ -74,8 +74,8 @@ class Business(models.Model):
     address = models.CharField(max_length=150)
     city = models.CharField(max_length=50, default=' ')
     state = models.CharField(max_length=2, choices=STATES, default='State')
-    zipcode = models.CharField(max_length=6, default=' ')
-    phone = models.CharField(max_length=11)
+    zipcode = models.CharField(max_length=7, default=' ')
+    phone = models.CharField(max_length=12)
     email = models.EmailField(max_length=255)
     owner = models.ForeignKey(
         Owner, on_delete=models.CASCADE, related_name='businesses')

@@ -4,8 +4,8 @@ from .models import Owner, Business, Services
 
 class OwnerSerializer(serializers.ModelSerializer):
     business = serializers.HyperlinkedRelatedField(
-        view_name='business_detail',
-        many=True,
+        view_name='owner_detail',
+        many=False,
         read_only=True
     )
 
